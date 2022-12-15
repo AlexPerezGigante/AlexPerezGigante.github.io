@@ -67,8 +67,13 @@ a{
 }
 main{
     width: 1300px;
+    background-image: url("imagenes/posterfondo.jpg");
 }
 .titulo{
     display: flex;
     width: 100%;
+}
+.menumain{
+    margin-top: 200px;
+    display: flex;
 }
