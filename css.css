@@ -1,0 +1,74 @@
+html{
+    margin-top: -10px;
+}
+body{    
+    font-family: 'Roboto';
+    font-size: 20px;
+    max-width: 1300px;
+}
+header{
+    max-width: 1290px;
+}
+ li{
+    width: 100%;
+    margin-right: 15px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.inicio{
+    max-width: 500px;
+    display: flex;
+    padding-left: 880px;
+    padding-top: 10px;
+}
+.inicio a{
+    color: #808080;
+}
+.inicio :hover{
+    text-decoration: underline;
+}
+.logo{
+    width: 30px;
+    padding-left: 90px;  
+}
+.menu{
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    border-bottom: 3px solid yellow;
+}
+.menu li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-right: -1px;
+}
+.menu a{
+    color: black;
+}
+.menu :hover{
+    background-color: yellow;
+}
+.cinesa{
+    width: 200px;
+    margin-right: 50px;
+}
+.amarillo{
+    color: yellow;
+}
+.barra{
+    display: block;
+    width: 130px;
+    border-right: 1px solid gray;
+
+}
+main{
+    width: 1300px;
+}
+.titulo{
+    display: flex;
+    width: 100%;
+}
