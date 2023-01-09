@@ -1,5 +1,6 @@
 html{
     margin-top: -10px;
+
 }
 body{    
     font-family: 'Roboto';
@@ -41,15 +42,16 @@ a{
     border-bottom: 3px solid yellow;
 }
 .menu li{
-    padding-top: 10px;
-    padding-bottom: 10px;
     text-align: center;
     margin-right: -1px;
 }
 .menu a{
+    padding-top: 15px;
+    display: block;
     color: black;
+    height: 40px;
 }
-.menu :hover{
+.menu a:hover{
     background-color: yellow;
 }
 .cinesa{
@@ -59,21 +61,248 @@ a{
 .amarillo{
     color: yellow;
 }
+.amarillo i{
+    margin-top: 25px;
+}
 .barra{
     display: block;
     width: 130px;
     border-right: 1px solid gray;
 
 }
-main{
-    width: 1300px;
+.container{
+    margin-left: -10px;
+    width: 1340px;
     background-image: url("imagenes/posterfondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -20px;
+    padding-top: 200px;
 }
 .titulo{
     display: flex;
     width: 100%;
 }
 .menumain{
-    margin-top: 200px;
     display: flex;
+    width: 100%;
+    margin: 5px;
+    margin-left: -35px;
+    width: 1300px;
+    font-family: 'oswald';
+    font-size: 18px;
+}
+.menumain li{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #D5D5D5;
+}
+.menumain li a{
+    color: #0076DC;
+    height: 40px;
+    display: block;
+    padding-top: 10px;
+}
+.menumain :hover{
+    background-color: #0076DC;
+    color: white;
+}
+.contenedorpeli{
+    width: 1300px;
+    background-color:   whitesmoke;
+    margin: auto;
+}
+.orden{
+    color:#0076DC;
+    display: flex;
+    padding-left: 920px;
+    margin-right: -100px;
+}
+.orden li a{
+    font-family: 'oswald';
+    color:#0076DC;
+    display: block;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: -10px;
+}
+.orden p{
+    margin-left: 30px;
+    margin-top: -1px;
+}
+#top a{
+    text-align: center;
+}
+#top a:hover{
+    color:whitesmoke;
+    background-color: #0076DC;
+}
+#az a{
+    color:whitesmoke;
+    background-color: #0076DC;
+    width: 50px;
+    text-decoration: underline 1px solid;
+    text-align: center;
+}
+.cartelera{
+    font-family: 'oswald';
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.pelicula{
+    padding: 15px 15px 0px 15px;
+    width: 200px;
+    border: lightgrey 1px solid;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px -5px;
+}
+.pelicula p{
+    color: #0076DC;
+}
+.estrella{
+    display: flex;
+    color: black;
+}
+.valoracion{
+    color: black;
+    display: flex;
+}
+.valoracion p{
+    color: black;
+    font-size: 18px;
+    vertical-align:top;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.valoracion i{
+    margin-top: 25px;
+}
+.footer{
+    width: 1300px;
+}
+.iconos{
+    margin-left: 20%;
+    font-size: 50px;
+}
+.iconos ul{
+    display: flex;
+}
+.iconos i{
+    color: #004987;
+}
+.links{
+    display: flex;
+    max-width: 1300px;
+}
+.links ul{
+    width: 300px;
+}
+.links h3{
+    color: #004987;
+}
+.links a{
+    color:#808080;
+}
+.boton{
+    font-size: 50px;
+    position: fixed;
+    bottom: 10px;
+    left: 1250px;
+}
+.boton i{
+    color: #004987;
+}
+.containerficha{
+    margin-left: -10px;
+    width: 1340px;
+    margin-top: -20px;
+    background-color: #D5D5D5;
+    padding-bottom: 1px;
+}
+.titulo ul{
+    display: flex;
+    margin: auto;
+    font-family: 'oswald';
+    font-size: 18px;
+}
+.titulo a{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    color: #808080;
+}
+.titulo i{
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.titulo h1{
+    font-family: 'oswald';
+    font-size: 18px;
+    width: 700px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    font-weight: normal;
+    color: orange;
+}
+.ficha{
+    display: flex;
+    font-size: 15px;
+}
+.containerfoto{
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 90%;
+}
+.fotos{
+    display: flex;
+}
+.fotos img{
+    margin-top: 25px;
+    margin-left: 25px;
+    height: auto;
+}
+.descripcion{
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.containericonos{
+    margin-left: 25px;
+    display: flex;
+}
+.containericonos .amarillo .fa-star{
+    margin-top: 15px;
+    color: yellow;
+}
+.containericonos .fa-star{
+    margin-top: 15px;
+    color: #808080;
+}
+.containericonos p{
+    margin-left: 5px;
+    color: #808080;
+}
+.containericonos .fa-share-nodes{
+    margin-top: 15px;
+    margin-left: 50%;
+    color: #808080;
+}
+.sinopsis{
+    background-color: white;
+    width: 98%;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 15px;
 }
